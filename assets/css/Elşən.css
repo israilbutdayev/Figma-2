@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+@media(min-width: 1280px) {
+    .logo {
+        margin: 21px 0 100px 121px;
+        width: 112px;
+        height: 66px;
+    }
+
+    .about {
+        width: 509px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 26px 121px;
+    }
+
+    .about div {
+        display: flex;
+    }
+
+    .about img {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+
+    .about p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        width: 130px;
+        height: 32px;
+    }
+
+    .online img {
+        width: 22px;
+        height: 21px;
+        position: absolute;
+        top: -3px;
+    }
+
+    .online p {
+        position: absolute;
+        left: 30px;
+    }
+
+    .clock img {
+        width: 22px;
+        height: 22px;
+        margin-left: 5px;
+    }
+
+    .calendar {
+        width: 20px;
+        height: 22px;
+        margin-right: 13px;
+    }
+
+    .fa {
+        width: 163px;
+        position: relative;
+    }
+
+   
+
+    .fa p {
+        position: absolute;
+        right: 0;
+    }
+
+    .watch {
+        display: flex;
+        justify-content: space-between;
+        width: 1072px;
+        margin: 4px 0 82.62px 0;
+    }
+
+    .watchtext {
+        width: 628px;
+        height: 250px;
+    }
+
+    .watch h1 {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 101.38%;
+        width: 628px;
+        height: 190px;
+    }
+
+    .watch p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        width: 414px;
+        height: 62px;
+        margin-top: -11px;
+    }
+
+    .watchimg {
+        /* position: relative; */
+        width: 304px;
+        margin-top: -25px;
+    }
+
+    .director {
+        width: 304px;
+        height: 356px;
+    }
+
+    .ellipse1 {
+        width: 274px;
+        height: 41px;
+        position: absolute;
+        bottom: -16px;
+        right: 0;
+        z-index: -1;
+        /* background-color: #EFEFEF; */
+    }
+
+    .blue-text {
+        width: 483.63px;
+        height: 200px;
+        background: #1E4681;
+        border-radius: 5px;
+        margin-left: 409.39px;
+        position: relative;
+        margin-bottom: 165.38px;
+    }
+
+    .blue-text p {
+        width: 460.59px;
+        height: 113px;
+        line-height: 32px;
+        font-weight: 400;
+        font-size: 25px;
+        /* line-height: 26px; */
+        font-family: 'Roboto Slab';
+        color: #FFFFFF;
+        width: 420px;
+        position: absolute;
+        top: 19.26px;
+        left: 20.03px;
+    }
+
+    .blue-text span {
+        width: 280.5px;
+        height: 45.64px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: #FFFFFF;
+        position: absolute;
+        text-align: right;
+        bottom: 0.02px;
+        right: 18.52px;
+    }
+
+    .course-text {
+        display: flex;
+        margin-left: 121px;
+        margin-bottom: 94px;
+    }
+
+    .course-head h1 {
+        font-weight: 700;
+        font-size: 55px;
+        margin: 0 0 47px 121px;
+    }
+
+    .course-text p {
+        font-weight: 400;
+        font-size: 24px;
+        width: 662px;
+        height: 374px;
+        line-height: 150%;
+    }
+
+    .course-img {
+        width: 314px;
+        height: 345px;
+        position: relative;
+        margin-left: 190px;
+    }
+
+    .cameraman {
+        width: 314px;
+        height: 315px;
+        margin-top: 24px;
+    }
+
+    .ellipse2 {
+        position: absolute;
+        bottom: -22px;
+        right: -26px;
+        z-index: -1;
+    }
+}
+
+@media(min-width: 992px) {
+    .logo {
+        margin: 21px 0 100px 121px;
+        width: 112px;
+        height: 66px;
+    }
+
+    .about {
+        width: 509px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 26px 121px;
+    }
+
+    .about div {
+        display: flex;
+    }
+
+    .about img {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+
+    .about p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        width: 130px;
+        height: 32px;
+    }
+
+    .online img {
+        width: 22px;
+        height: 21px;
+        position: absolute;
+        top: -3px;
+    }
+
+    .online p {
+        position: absolute;
+        left: 30px;
+    }
+
+    .clock img {
+        width: 22px;
+        height: 22px;
+        margin-left: 5px;
+    }
+
+    .calendar {
+        width: 20px;
+        height: 22px;
+        margin-right: 13px;
+    }
+
+    .fa {
+        width: 163px;
+        position: relative;
+    }
+
+   
+
+    .fa p {
+        position: absolute;
+        right: 0;
+    }
+
+    .watch {
+        display: flex;
+        width: 1072px;
+        margin: 4px 246px 82.62px 122px;
+    }
+
+    .watch h1 {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 101.38%;
+        width: 628px;
+        height: 190px;
+    }
+
+    .watch p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        width: 414px;
+        height: 62px;
+        margin-top: -11px;
+    }
+
+    .watchimg {
+        position: relative;
+        width: 304px;
+        box-sizing: border-box;
+        margin-left: 140px;
+        margin-top: -25px;
+    }
+
+    .director {
+        width: 304px;
+        height: 356px;
+    }
+
+    .ellipse1 {
+        width: 274px;
+        height: 41px;
+        position: absolute;
+        bottom: -16px;
+        right: 0;
+        z-index: -1;
+        /* background-color: #EFEFEF; */
+    }
+
+    .blue-text {
+        width: 483.63px;
+        height: 200px;
+        background: #1E4681;
+        border-radius: 5px;
+        margin-left: 409.39px;
+        position: relative;
+        margin-bottom: 165.38px;
+    }
+
+    .blue-text p {
+        width: 460.59px;
+        height: 113px;
+        line-height: 32px;
+        font-weight: 400;
+        font-size: 25px;
+        /* line-height: 26px; */
+        font-family: 'Roboto Slab';
+        color: #FFFFFF;
+        width: 420px;
+        position: absolute;
+        top: 19.26px;
+        left: 20.03px;
+    }
+
+    .blue-text span {
+        width: 280.5px;
+        height: 45.64px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: #FFFFFF;
+        position: absolute;
+        text-align: right;
+        bottom: 0.02px;
+        right: 18.52px;
+    }
+
+    .course-text {
+        display: flex;
+        margin-left: 121px;
+        margin-bottom: 94px;
+    }
+
+    .course-head h1 {
+        font-weight: 700;
+        font-size: 55px;
+        margin: 0 0 47px 121px;
+    }
+
+    .course-text p {
+        font-weight: 400;
+        font-size: 24px;
+        width: 662px;
+        height: 374px;
+        line-height: 150%;
+    }
+
+    .course-img {
+        width: 314px;
+        height: 345px;
+        position: relative;
+        margin-left: 190px;
+    }
+
+    .cameraman {
+        width: 314px;
+        height: 315px;
+        margin-top: 24px;
+    }
+
+    .ellipse2 {
+        position: absolute;
+        bottom: -22px;
+        right: -26px;
+        z-index: -1;
+    }
+}
