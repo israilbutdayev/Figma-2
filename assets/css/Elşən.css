@@ -46,6 +46,12 @@ h3 {
         height: 32px;
     }
 
+    .online {
+        width: 165px;
+        height: 35px;
+
+    }
+
     .online img {
         width: 22px;
         height: 21px;
@@ -54,24 +60,46 @@ h3 {
     }
 
     .online p {
-        position: absolute;
+        /* position: absolute; */
         left: 30px;
+    }
+
+    .clock {
+        width: 162px;
+        height: 36px;
+        position: relative;
     }
 
     .clock img {
         width: 22px;
         height: 22px;
-        margin-left: 5px;
+        position: absolute;
+        top: -4px;
+        left: 10px;
+    }
+
+    .clock p {
+        margin-right: 30px;
+        text-align: end;
+        position: absolute;
+        left: -5px;
     }
 
     .calendar {
+        width: 163px;
+        height: 36px;
+        position: relative;
+    }
+
+    .calendar img {
         width: 20px;
         height: 22px;
-        margin-right: 13px;
+        position: absolute;
+        left: 0px;
+        top: -4px;
     }
 
     .fa {
-        width: 163px;
         position: relative;
     }
 
@@ -84,7 +112,7 @@ h3 {
         display: flex;
         justify-content: space-between;
         width: 1072px;
-        margin: 4px 0 82.62px 121px;
+        margin: 4px 0 83.62px 122px;
     }
 
     .watchtext {
@@ -107,13 +135,14 @@ h3 {
         width: 414px;
         height: 62px;
         margin-top: -11px;
-        margin-left: 1px;
+        margin-left: 0px;
     }
 
     .watchimg {
         width: 304px;
-        margin-top: -25px;
+        margin-top: -26px;
         position: relative;
+        /* margin-right: -1px; */
     }
 
     .director {
@@ -142,10 +171,10 @@ h3 {
 
     .blue-text p {
         width: 430.59px;
-height: 113px;
-font-weight: 400;
-font-size: 25px;
-line-height: 32px;
+        height: 113px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
         font-family: 'Roboto Slab';
         color: #FFFFFF;
         position: absolute;
@@ -232,7 +261,9 @@ line-height: 32px;
     }
 
     .about img {
-        margin-right: 4.63px;
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
     }
 
     .about p {
@@ -243,6 +274,12 @@ line-height: 32px;
         line-height: 115%;
     }
 
+    .online {
+        width: 92.67px;
+        height: 20.27px;
+
+    }
+
     .online img {
         width: 12.74px;
         height: 12.16px;
@@ -251,24 +288,46 @@ line-height: 32px;
     }
 
     .online p {
-        position: absolute;
-        left: 30px;
+        /* position: absolute; */
+        left: 17px;
+    }
+
+    .clock {
+        width: 93.82px;
+        height: 20.85px;
+        position: relative;
     }
 
     .clock img {
         width: 12.74px;
         height: 12.74px;
-        margin-left: 5.79px;
+        position: absolute;
+        top: -3px;
+        left: 8px;
+    }
+
+    .clock p {
+        margin-right: 30px;
+        text-align: end;
+        position: absolute;
+        left: 0;
+    }
+
+    .calendar {
+        width: 94.4px;
+        height: 20.85px;
+        position: relative;
     }
 
     .calendar img {
         width: 11.58px;
         height: 12.74px;
-        margin-right: 7.53px;
+        position: absolute;
+        left: 0;
+        top: -3px;
     }
 
     .fa {
-        width: 163px;
         position: relative;
     }
 
@@ -427,7 +486,9 @@ line-height: 32px;
     }
 
     .about img {
-        margin-right: 3.73px;
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
     }
 
     .about p {
@@ -438,31 +499,59 @@ line-height: 32px;
         line-height: 115%;
     }
 
+    .online {
+        width: 74.56px;
+        height: 14.91px;
+    }
+
     .online img {
         width: 10.25px;
         height: 9.79px;
         position: absolute;
-        top: -0.6px;
+        top: .5px;
     }
 
     .online p {
-        position: absolute;
+        /* position: absolute; */
+        left: 14px;
+    }
+
+    .clock {
+        width: 75.49px;
+        height: 14.91px;
+        position: relative;
     }
 
     .clock img {
         width: 10.25px;
         height: 10.25px;
-        margin-left: 5.79px;
+        position: absolute;
+        top: 0;
+        left: 6px;
+    }
+
+    .clock p {
+        margin-right: 30px;
+        text-align: end;
+        position: absolute;
+        left: 2px;
+    }
+
+    .calendar {
+        width: 75.95px;
+        height: 14.91px;
+        position: relative;
     }
 
     .calendar img {
         width: 9.32px;
         height: 10.25px;
-        margin-right: 6.06px;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 
     .fa {
-        width: 75.95px;
         position: relative;
     }
 
