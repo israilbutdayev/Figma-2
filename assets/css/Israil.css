@@ -12,10 +12,24 @@ body {
   /* background-color: rgb(148, 148, 150); */
 }
 
+.Israil>h2:nth-child(1) {
+  font-family: 'Roboto', sans-serif;
+  width: 905px;
+  height: 93px;
+  font-size: 55px;
+  line-height: 55.76px;
+  font-weight: 700;
+  margin-left: 121px;
+  margin-top: 248px;
+  margin-bottom: 95px;
+}
+
+
 .flex-container-5 {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-between; */
+  width: 1440px;
   column-gap: 37px;
   row-gap: 45px;
   margin-left: 84px;
@@ -195,7 +209,7 @@ body {
   justify-content: start;
   color: white;
   gap: 656px;
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0;
   margin-bottom: 146px;
 }
@@ -246,18 +260,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 18.25px;
-}
-
-.Israil>h2:nth-child(1) {
-  font-family: 'Roboto', sans-serif;
-  width: 905px;
-  height: 93px;
-  font-size: 55px;
-  line-height: 55.76px;
-  font-weight: 700;
-  margin-left: 121px;
-  margin-top: 248px;
-  margin-bottom: 95px;
 }
 
 .course2 {
@@ -331,16 +333,10 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
-  body {
+  /* body {
     width: 834px;
-  }
-
-  .flex-container-5 {
-    column-gap: 21.43px;
-    row-gap: 23.75px;
-    margin-left: 48.65px;
-  }
-
+  } */
+  
   .Israil>h2:nth-child(1) {
     font-family: 'Roboto', sans-serif;
     width: 524.15px;
@@ -352,6 +348,14 @@ body {
     margin-top: 143.63px;
     margin-bottom: 55.02px;
   }
+
+  .flex-container-5 {
+    width: 834px;
+    column-gap: 21.43px;
+    row-gap: 23.75px;
+    margin-left: 48.65px;
+  }
+
 
   .flex-container-5>.flex-item {
     display: flex;
@@ -393,7 +397,7 @@ body {
   }
 
   .course2 {
-    width: 834px;
+    /* width: 834px; */
     height: 451.75px;
     padding-top: 52.7px;
     padding-bottom: 64.29px;
@@ -648,10 +652,10 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  body {
+  /* body {
     width: 376px;
-    /* background-color: aqua; */
-  }
+    background-color: aqua;
+  } */
 
   .flex-container-2 {
     flex-direction: column;
@@ -710,6 +714,7 @@ body {
   }
 
   .flex-container-5 {
+    width: 376px;
     row-gap: 24.16px;
     margin-left: 96px;
   }
@@ -756,7 +761,7 @@ body {
   }
 
   .course2 {
-    width: 376px;
+    /* width: 376px; */
     height: 423px;
     padding-top: 42px;
     padding-bottom: 53px;
