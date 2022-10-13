@@ -1,133 +1,208 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
-@media(min-width: 1280px) {
-    .about-course {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+@media (min-width: 1280px) {
+  .about-course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-    h3 {
-        margin-top: 10px;
-        font-size: 30px;
-    }
+  h3 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
 
-    .Samirə img {
-        position: relative;
-        bottom: 10px;
-        right: 85px;
-        width: 232px;
-        height: 203px;
-    }
+  .Samirə img {
+    position: relative;
+    bottom: 10px;
+    right: 85px;
+    width: 232px;
+    height: 203px;
+  }
 
-    .about-course div {
-        width: 150px;
-        height: 39px;
-        font-size: 18px;
-    }
+  .about-course div {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+  }
 
-    h2 {
-        margin-bottom: 21px;
-        font-size: 66px;
-    }
+  h2 {
+    margin-bottom: 21px;
+    font-size: 66px;
+  }
 
-    ul {
-        font-size: 24px;
-        line-height: 36px;
-        max-width: 662px;
-        height: 374px;
-    }
+  ul {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 662px;
+    height: 374px;
+  }
 
-    .format {
-        margin-left: 25px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .format {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .format div {
-        width: 270px;
-    }
+  .format div {
+    width: 270px;
+  }
 
-    .format-lessons h3 {
-        font-size: 25px;
-        color: #1E4681;
-    }
+  .format-lessons h3 {
+    font-size: 25px;
+    color: #1e4681;
+  }
 
-    .format-lessons p {
-        font-size: 18px;
-        width: 260px;
-    }
+  .format-lessons p {
+    font-size: 18px;
+    width: 260px;
+  }
 
-    .format-lessons {
-        position: relative;
-    }
+  .format-lessons {
+    position: relative;
+  }
 }
 
-@media(min-width: 992px) and (max-width: 1279px) {
-    .about-course {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+@media (min-width: 992px) and (max-width: 1279px) {
+  .about-course {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: start; */
+    margin-top: 53px;
+    margin-left: 70.08px;
+    align-items: center;
+    margin-bottom: 98px;
+  }
 
-    h3 {
-        margin-top: 10px;
-        font-size: 30px;
-    }
+  .Samirə img {
+    /* position: relative; */
+    bottom: 10px;
+    right: 85px;
+    width: 232px;
+    height: 203px;
+  }
+  .about-course > .information {
+    font-family: "Roboto";
+    font-size: 11px;
+    line-height: 14.3px;
+    font-weight: 400;
+    width: 86.88px;
+  }
+  .about-course > .information > h3 {
+    font-family: "Roboto";
+    margin-top: 3px;
+    font-size: 15px;
+    line-height: 19.5px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    width: 86.88px;
+    height: 22.59px;
+  }
+  .about-course > .information:nth-child(2) {
+    margin-right: 55px;
+  }
+  .about-course > .information:nth-child(3) {
+    width: 108px;
+    margin-right: 33px;
+  }
+  .Samirə > .about-course > img {
+    width: 134.37px;
+    height: 117.57px;
+    margin-right: 76.45px;
+  }
+  .about-course div {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+  }
+  .format-lessons {
+    margin-left: 46px;
+  }
+  .format-lessons > h2 {
+    font-size: 32px !important;
+    margin-bottom: 21px;
+    font-size: 66px;
+    margin-bottom: 70px;
+    margin-left: 24px;
+  }
 
-    .Samirə img {
-        position: relative;
-        bottom: 10px;
-        right: 85px;
-        width: 232px;
-        height: 203px;
-    }
+  .format-lessons > .format > div {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14.3px;
+    width: 135px;
+  }
 
-    .about-course div {
-        width: 150px;
-        height: 39px;
-        font-size: 18px;
-    }
+  .format-lessons > .format > div > h3 {
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 19.5px;
+    margin-bottom: 4px;
+  }
 
-    h2 {
-        margin-bottom: 21px;
-        font-size: 66px;
-    }
+  .format {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  body > div.Samirə > div.format-lessons > div > div:nth-child(1) {
+    margin-right: 65px;
+  }
+  body > div.Samirə > div.format-lessons > div > div:nth-child(2) {
+    width: 172px;
+    margin-right: 50px;
+  }
+  body > div.Samirə > div.format-lessons > div > div:nth-child(3) {
+    width: 141.9px;
+  }
+  .format div {
+    width: 270px;
+  }
 
-    ul {
-        font-size: 24px;
-        line-height: 36px;
-        max-width: 662px;
-        height: 374px;
-    }
+  .format-lessons p {
+    font-size: 18px !important;
+    width: 260px !important;
+  }
 
-    .format {
-        margin-left: 25px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .format div {
-        width: 270px;
-    }
-
-    .format-lessons h3 {
-        font-size: 25px;
-        color: #1E4681;
-    }
-
-    .format-lessons p {
-        font-size: 18px;
-        width: 260px;
-    }
-
-    .format-lessons {
-        position: relative;
-    }
-
-
+  /* .format-lessons {
+    position: relative;
+  } */
+  .wwknow {
+    margin-top: 122px;
+    margin-left: 70px;
+  }
+  .wwknow > h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-bottom: 34px;
+  }
+  ul {
+    list-style: disc;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 662px;
+    height: 374px;
+    margin-left: 10px;
+    width: 383px;
+  }
+  ul > li {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: -5px;
+  }
+  .Samirə * {
+    position: static !important;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+  }
 }
