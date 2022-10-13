@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 121px;
 }
 .about-course{
     display: flex;
@@ -10,7 +10,7 @@ h3{
     margin-top: 10px;
     font-size: 30px;
 }
-.Samirə img{
+img{
     position: relative;
     bottom: 10px;
     right:85px;
@@ -36,6 +36,7 @@ ul{
     height: 374px;
 }
 .format{
+    margin-top: 110px;
     margin-left: 25px;
     display: flex;
     flex-direction: row;
@@ -54,10 +55,22 @@ ul{
 }
 .format-lessons{
     position: relative;
+    top: 100px;
+
 }
-@media (min-width: 320px) and (max-width: 991px){
+
+@media (max-width: 991px){
     .format{
         display: flex;
         flex-direction: column;
     }
+}
+.wwknow{
+    position: relative;
+    top: 250px;
+}
+.wwknow ul{
+    margin-top: 45px;
+    position: relative;
+    right: 20px;
 }
