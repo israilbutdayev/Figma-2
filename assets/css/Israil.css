@@ -4,11 +4,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  padding: 9% 0;
+  padding: 0;
   margin: 0;
   height: 100vh;
   background-color: white;
-  width: 1440px;
+  /* width: 1440px; */
   /* background-color: rgb(148, 148, 150); */
 }
 
