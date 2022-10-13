@@ -690,7 +690,7 @@ div.course2 > h1:nth-child(1) {
   } */
   #Israil.Israil {
     position: relative !important;
-    top: 49px !important;
+    top: -26px !important;
   }
   .Israil > h2:nth-child(1) {
     font-family: "Roboto", sans-serif;
@@ -757,7 +757,7 @@ div.course2 > h1:nth-child(1) {
     margin-top: 8px;
   }
   .course2 {
-    /* width: 376px; */
+    width: 376px;
     height: 423px;
     padding-top: 42px;
     padding-bottom: 53px;
@@ -831,6 +831,7 @@ div.course2 > h1:nth-child(1) {
     margin: 0px;
     height: 363.46px;
     padding-top: 62px;
+    width: 376px;
   }
 
   .price > h2 {
@@ -914,6 +915,8 @@ div.course2 > h1:nth-child(1) {
     height: 251px;
     padding-top: 23.3px;
     padding-left: 38px;
+    width: 376px;
+    box-sizing: border-box;
   }
 
   .footer > .info > .flex-item > img {
