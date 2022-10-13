@@ -55,4 +55,9 @@ ul{
 .format-lessons{
     position: relative;
 }
-
+@media (min-width: 320px) and (max-width: 991px){
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+}
