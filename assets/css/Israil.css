@@ -11,6 +11,11 @@ body {
   /* background-color: rgb(148, 148, 150); */
 }
 
+#Israil.Israil {
+  position: relative !important;
+  top: 485px !important;
+}
+
 .Israil {
   font-family: "Roboto", sans-serif !important;
   margin-top: -6px;
@@ -94,6 +99,7 @@ body > div.Israil > div.flex-container-5 > div:nth-child(8) > p:nth-child(2) {
   box-sizing: border-box;
   padding-top: 93px;
   padding-bottom: 111px;
+  width: 1440px;
 }
 
 div.course2 > h1:nth-child(1) {
@@ -178,6 +184,7 @@ div.course2 > h1:nth-child(1) {
   height: 780px;
   padding-top: 179px;
   box-sizing: border-box;
+  width: 1440px;
 }
 
 .price > h2 {
@@ -262,6 +269,7 @@ div.course2 > h1:nth-child(1) {
   height: 390px;
   padding-top: 50px;
   padding-left: 121px;
+  width: 1440px;
 }
 
 .footer > .info > .flex-item > img {
@@ -355,6 +363,11 @@ div.course2 > h1:nth-child(1) {
     width: 834px;
   } */
 
+  #Israil.Israil {
+    position: relative !important;
+    top: -157px !important;
+  }
+
   .Israil > h2:nth-child(1) {
     font-family: "Roboto", sans-serif;
     width: 524.15px;
@@ -363,7 +376,7 @@ div.course2 > h1:nth-child(1) {
     line-height: 32.44px;
     font-weight: 700;
     margin-left: 70px;
-    margin-top: 143.63px;
+    margin-top: 143px;
     margin-bottom: 55.02px;
   }
 
@@ -424,7 +437,7 @@ div.course2 > h1:nth-child(1) {
   }
 
   .course2 {
-    /* width: 834px; */
+    width: 834px;
     height: 451.75px;
     padding-top: 52.7px;
     padding-bottom: 64.29px;
@@ -498,6 +511,7 @@ div.course2 > h1:nth-child(1) {
     height: 451.75px;
     padding-top: 103.67px;
     padding-left: 37px;
+    width: 834px;
   }
 
   .price > h2 {
@@ -572,15 +586,18 @@ div.course2 > h1:nth-child(1) {
     margin: 0;
     font-size: 10px;
     line-height: 10.14px;
+    box-sizing: border-box;
   }
 
   .footer {
     margin: 0;
     padding: 0;
     background-color: black;
-    height: 255.88px;
+    height: 225.88px;
     padding-top: 28.96px;
     padding-left: 70.66px;
+    width: 834px;
+    box-sizing: border-box;
   }
 
   .footer > .info > .flex-item > img {
@@ -684,7 +701,10 @@ div.course2 > h1:nth-child(1) {
     width: 376px;
     background-color: aqua;
   } */
-
+  #Israil.Israil {
+    position: relative !important;
+    top: -26px !important;
+  }
   .Israil > h2:nth-child(1) {
     font-family: "Roboto", sans-serif;
     /* width: 905px; */
@@ -750,7 +770,7 @@ div.course2 > h1:nth-child(1) {
     margin-top: 8px;
   }
   .course2 {
-    /* width: 376px; */
+    width: 376px;
     height: 423px;
     padding-top: 42px;
     padding-bottom: 53px;
@@ -824,6 +844,7 @@ div.course2 > h1:nth-child(1) {
     margin: 0px;
     height: 363.46px;
     padding-top: 62px;
+    width: 376px;
   }
 
   .price > h2 {
@@ -907,6 +928,8 @@ div.course2 > h1:nth-child(1) {
     height: 251px;
     padding-top: 23.3px;
     padding-left: 38px;
+    width: 376px;
+    box-sizing: border-box;
   }
 
   .footer > .info > .flex-item > img {
