@@ -14,12 +14,16 @@ h3 {
 }
 
 @media(min-width: 1280px) {
+    /* .elshan {
+        margin: 0;
+        height: 100%;
+    } */
+
     .logo {
         margin: 21px 0 100px 121px;
         width: 112px;
         height: 66px;
     }
-
 
     .about {
         width: 509px;
@@ -33,12 +37,6 @@ h3 {
         display: flex;
     }
 
-    .about img {
-        width: 22px;
-        height: 22px;
-        margin-right: 10px;
-    }
-
     .about p {
         font-weight: 400;
         font-size: 20px;
@@ -50,7 +48,6 @@ h3 {
     .online {
         width: 165px;
         height: 35px;
-
     }
 
     .online img {
@@ -212,7 +209,7 @@ h3 {
         font-weight: 400;
         font-size: 24px;
         width: 662px;
-        height: 374px;
+        height: 420px;
         line-height: 150%;
     }
 

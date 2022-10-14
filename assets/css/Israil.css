@@ -13,6 +13,7 @@ body {
 
 .Israil {
   font-family: "Roboto", sans-serif !important;
+  margin-top: -6px;
 }
 
 .Israil > h2:nth-child(1) {
@@ -48,7 +49,8 @@ body > div.Israil > div.flex-container-5 > div:nth-child(8) > p:nth-child(2) {
 .flex-container-5 > .flex-item {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 5px;
   box-shadow: 1px;
   border-radius: 30px;
   flex-basis: 399px;
@@ -77,6 +79,14 @@ body > div.Israil > div.flex-container-5 > div:nth-child(8) > p:nth-child(2) {
   font-size: 25px;
   line-height: 32.5px;
   margin-top: 0px;
+}
+
+.margin-flex {
+  margin-top: 5px;
+}
+
+.margin-flex img {
+  margin-bottom: 1px;
 }
 
 .course2 {
