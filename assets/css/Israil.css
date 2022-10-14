@@ -11,11 +11,6 @@ body {
   /* background-color: rgb(148, 148, 150); */
 }
 
-#Israil.Israil {
-  position: relative !important;
-  top: 485px !important;
-}
-
 .Israil {
   font-family: "Roboto", sans-serif !important;
 }
@@ -353,11 +348,6 @@ div.course2 > h1:nth-child(1) {
     width: 834px;
   } */
 
-  #Israil.Israil {
-    position: relative !important;
-    top: -157px !important;
-  }
-
   .Israil > h2:nth-child(1) {
     font-family: "Roboto", sans-serif;
     width: 524.15px;
@@ -691,10 +681,6 @@ div.course2 > h1:nth-child(1) {
     width: 376px;
     background-color: aqua;
   } */
-  #Israil.Israil {
-    position: relative !important;
-    top: -26px !important;
-  }
   .Israil > h2:nth-child(1) {
     font-family: "Roboto", sans-serif;
     /* width: 905px; */
@@ -703,7 +689,7 @@ div.course2 > h1:nth-child(1) {
     line-height: 26.36px;
     font-weight: 700;
     margin-left: 34px;
-    margin-top: 85px;
+    margin-top: 58px;
     margin-bottom: 35.66px;
   }
 

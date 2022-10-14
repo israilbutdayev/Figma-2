@@ -335,16 +335,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 32px;
+    /* row-gap: 32px; */
     /* justify-content: start; */
     margin-top: 77px;
     margin-left: 35px;
-    align-items: center;
-    margin-bottom: 97px;
-    height: 185px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    height: 142px;
   }
 
-  .samira .about-img img {
+  .samira .about-img {
     /* position: relative; */
     display: none;
     bottom: 10px;
@@ -352,7 +352,22 @@
     width: 232px;
     height: 203px;
   }
-  body > div.samira > div.format-lessons > div > div:nth-child(1) > br {
+  body > div.samira > div.about-course > div:nth-child(3) {
+    margin-right: 100px;
+  }
+  body > div.samira > div.about-course > div:nth-child(4) {
+    width: 94px;
+  }
+  body
+    > div.samira
+    > div.about-course
+    > div:nth-child(4)
+    body
+    > div.samira
+    > div.format-lessons
+    > div
+    > div:nth-child(1)
+    > br {
     display: none;
   }
   .about-course > .information {
@@ -406,14 +421,6 @@
     /* height: 10px; */
   }
 
-  .format-lessons > .format > div {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 13px;
-    width: 200px;
-  }
-
   .format-lessons > .format > div > h3 {
     color: #1e4681;
     font-family: "Roboto";
@@ -437,15 +444,6 @@
   }
   body > div.samira > div.format-lessons > div > div:nth-child(2) {
     margin-bottom: 31px;
-    width: 171px;
-  }
-  body > div.samira > div.format-lessons > div > div:nth-child(3) {
-    width: 141.9px;
-  }
-
-  .format-lessons p {
-    font-size: 18px !important;
-    width: 260px !important;
   }
 
   /* .format-lessons {
@@ -483,5 +481,23 @@
     left: 0px !important;
     right: 0px !important;
     bottom: 0px !important;
+  }
+  body > div.samira > div.format-lessons > div > div > p {
+    font-family: "Roboto";
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 13px !important;
+  }
+  body > div.samira > div.format-lessons > div > div.vebnar > p > br {
+    display: none;
+  }
+  body > div.samira > div.format-lessons > div > div.vebnar {
+    width: 220px !important;
+  }
+  body > div.samira > div.format-lessons > div > div.ever {
+    width: 171px !important;
+  }
+  body > div.samira > div.format-lessons > div > div.convers {
+    width: 176px !important;
   }
 }
