@@ -23,8 +23,8 @@ body {
   line-height: 55.76px;
   font-weight: 700;
   margin-left: 121px;
-  margin-top: 243px;
-  margin-bottom: 95px;
+  margin-top: 242px;
+  margin-bottom: 94px;
 }
 
 .flex-container-5 {
@@ -33,7 +33,7 @@ body {
   /* justify-content: space-between; */
   width: 1440px;
   column-gap: 35px;
-  row-gap: 38px;
+  row-gap: 39px;
   margin-left: 83px;
   /* margin-right: 85px; */
   /* padding-right: 85px; */
@@ -94,7 +94,7 @@ div.course2 > h1:nth-child(1) {
   width: 987px;
   height: 93px;
   padding: 0;
-  margin-top: 2px;
+  margin-top: 1px;
   margin-left: 121px;
   margin-bottom: 34px;
 }
@@ -105,7 +105,7 @@ div.course2 > h1:nth-child(1) {
   border-radius: 30px;
   background: #ffffff;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  padding-top: 40px;
+  padding-top: 39px;
   padding-left: 0px;
   box-sizing: border-box;
   /* padding-right: 46px; */
@@ -130,7 +130,7 @@ div.course2 > h1:nth-child(1) {
 
 .course2 > div > h3 {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 41px;
   height: 59px;
   width: 353px;
   font-size: 30px;
@@ -254,6 +254,7 @@ div.course2 > h1:nth-child(1) {
   height: 390px;
   padding-top: 50px;
   padding-left: 121px;
+  box-sizing: border-box;
   width: 1440px;
 }
 
